@@ -12,7 +12,7 @@ end
 reducedColorImg = im(1:rows-1,:,:); % copies all pixels after shifting to reducedColorImg
 reducedEnergyImg = energy_img(reducedColorImg);
 
-% imshow(reducedColorImg)
+% imshow(reducedColorImg, 'InitialMagnification', 200)
 
 end
 

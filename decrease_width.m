@@ -12,6 +12,6 @@ end
 reducedColorImg = im(:,1:cols-1,:); % copies all pixels after shifting to reducedColorImg
 reducedEnergyImg = energy_img(reducedColorImg);
 
-imshow(reducedColorImg, 'InitialMagnification', 200)
+% imshow(reducedColorImg, 'InitialMagnification', 200)
 
 end

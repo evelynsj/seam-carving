@@ -1,4 +1,5 @@
 function verticalSeam = find_vertical_seam(cumulativeEnergyMap)
+
 [rows, cols] = size(cumulativeEnergyMap);
 verticalSeam = zeros(1, rows); 
 ct = 1;
